@@ -11,7 +11,7 @@ catch(e){
 return true
 }
 
-const repoName = process.argv[2];
+const repoName = process.argv[2] || 'New Project';
 const gitCheckoutCommand = `git clone --depth 1 https://github.com/saidinesh898/express-boilerpate-typescript ${repoName}`
 const installDepCommand = `cd ${repoName} && npm install`
 
