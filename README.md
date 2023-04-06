@@ -1,3 +1,3 @@
 # express-boilerpate-typescript
 
-##To install use npx express-boilerpate <App Name>
+## To install npx express-boilerpate AppName
